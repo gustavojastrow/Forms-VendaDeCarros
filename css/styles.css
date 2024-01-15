@@ -5,7 +5,7 @@
 
 html{
     font-family: Helvetica;
-    background-color: antiquewhite;
+    background-color: #deedee;
 }
 
 h1,h2,h3,h4{
@@ -18,7 +18,7 @@ p, label{
 
 input{
     border: none;
-    border-bottom: 5px rgb(0, 0, 0) solid;
+    border-bottom: 2px #76a5a7 solid;
     padding: 10px;
 }
 textarea{
@@ -34,17 +34,21 @@ textarea{
 }
 
 .title-container{
-    background-color: azure;
-    margin: 0;
-    padding: 0;
+    background-color: #76a5a7;
     text-align: center;
     color: black;
     font-size: 20px;
     border-bottom: 2px black solid;
     height: 300px;
-    
+}
+
+.title-container h2{
+    padding: 10px;
+    color: #dfdfdf;
+
     
 }
+
 .picture img{
     width: 30%;
 }
@@ -52,9 +56,78 @@ textarea{
 .container{
     top: -82px;
     width: 60%;
-    background-color: #fdfdfd;
+    background-color: #F8F8FF;
     margin: 0px auto;
     position: relative;
 }
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
 
+.form-header p{
+    color: #76a5a7;
+    border-bottom: #76a5a7 solid 2px;
+    width: 120px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
 
+.form-body{
+    padding: 30px;
+}
+.form-body p{
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.form-title{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.box-optionals{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.box-optionals li{
+    list-style: none    ;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.button{
+    background-color: #76a5a7;
+    border: transparent;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: solid transparent 2px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: #F8F8FF;
+    border-color: #76a5a7;
+    color:#76a5a7;
+}

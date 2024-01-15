@@ -18,12 +18,13 @@
     <div class="container">
         
         <div class="form-container">
-            <p>Formulário</p>
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
         </div>
         <div class="form-body">
-            <h1 class="form-title">Venda fácil seu carro!</h1>
+            <h1 class="form-title">Venda seu veículo aqui!</h1>
             <p>Descreva as características opcionais do veículo</p>
-        </div>
         <div class="box-input">
             <label for="title">Título do anúncio <span class="required-field">*</span></label>
             <input type="text" name="title" id="title" class="block" placeholder="Digite o título" required>
@@ -98,15 +99,15 @@
                     <input type="checkbox" id="leather" name="optional" value="leather">
                     <label for="leather">Banco de couro</label>
                 </li>
-                <div class="box-input">
-                    <p>Fotos do carro <span class="required-field">*</span></p>
-                    <input type="file" multiple required accept="image/png, image/jpg" id="images" name="images">
-                </div>
             </ul>
         </div>
-        
-        <input type="submit" value="Enviar" class="button">
+        <div class="box-input">
+            <p>Fotos do carro <span class="required-field">*</span></p>
+            <input type="file" multiple required accept="image/png, image/jpg" id="images" name="images">
+
+        </div>
+            <input type="submit" value="Enviar" class="button">
+        </div>
     </div>
-    
 </body>
 </html>
